@@ -1,0 +1,200 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.main {
+  height: 637px;
+}
+.myhome{
+
+}
+.rightalign{
+	top: 40px;
+	right: 50px;
+}
+.leftalign{
+	top: 8px;
+	left: 16px;
+}
+.margin{
+	margin: 30px;
+	font-family: "Geo Sans Light", serif;
+	font-size: 1.2em;
+	color: #fcefef;
+	text-decoration:none;
+}
+.first{
+	position: absolute;
+	z-index: 1;
+}
+.home{
+	background: url('15340.jpg') no-repeat;
+	background-size:100%;
+}
+.container{
+	position: relative;
+	text-align: center;
+	color: white;
+
+}
+.position
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica, serif;
+	font-size: 3vw;
+	color: white;
+}
+.about{
+	background-color: white;
+}
+.aboutme{
+	position: relative;
+	text-align: center;
+	margin: 150px 80px 0px 80px;
+	font-size: 1.5em;
+}
+.techstack{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.mystack{
+	position: relative;
+	text-align: center;
+}
+.marginright{
+	margin-right: 60px;
+}
+.marginleft{
+	margin-left: 60px;
+}
+.project{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#resize{
+	width: 200px;
+}
+.contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.mycontact, .mypadding{
+	padding: 30px;
+}
+.profont{
+	padding: 5px;
+	margin-left: 65px;
+	font-family: "Geo Sans Light", serif;
+	font-size: 1.1em;
+	text-decoration:none;
+	font-style: italic;
+}
+.sidenav .closebtn{
+	visibility: hidden;
+}
+.hide{
+	display: none;
+}
+@media only screen and (max-width: 768px){
+	.main {
+  	height: 500px;
+	}
+	.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111542;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 4px 4px 4px 24px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e8e5e5;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #99beef;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 26px;
+    margin-left: 30px;
+    visibility: visible;
+}
+.hide{
+	display: block;	
+	visibility: visible;
+}
+.hideimg{
+	display: none;
+}
+.position
+{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: Helvetica, serif;
+	font-size: 3vw;
+	color: white;
+}
+.aboutme{
+	position: relative;
+	text-align: center;
+	margin: 50px 80px 0px 80px;
+	font-size: 1.2em;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#resize{
+	width: 100px;
+}
+.profont{
+	padding: 5px;
+	margin-left: 20px;
+	font-family: "Geo Sans Light", serif;
+	font-size: 1.1em;
+	text-decoration:none;
+	font-style: italic;
+}
+.project{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+}
+@media only screen and (max-width: 414px){
+
+
+}
